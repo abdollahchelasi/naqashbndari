@@ -16,6 +16,10 @@ export default function Home() {
         <title>نقاش علی اکبر - بندرعباس</title>
         <meta name="description" content="نقاشی ساختمان انواع رنگ پلاستیک اکرولیک و روغنی رنگ امیزی کناف، درب و پنجره  ،با بهترین کیفیت در خدمت مشتریهای عزیز" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta
+          name="keywords"
+          content="نقاش علی اکبر , نقاش بندرعباس , نقاشی علی اکبر , نقاشی بندرعباس , نقاشی درب بندرعباس , نقاشی دیوار بندرعباس , نقاشی کناف بندرعباس"
+        />
         <link rel="icon" href="https://parspamchalpaint.com/wp-content/uploads/2018/06/actions-fill-color-icon-1.png" />
       </Head>
       <main className={styles.home} id='home'>
