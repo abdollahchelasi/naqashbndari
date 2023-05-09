@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Lalezar&display=swap');
+
+.home{
+  font-family: 'Lalezar', cursive;
+  color: aliceblue;
+  background:linear-gradient(to left,rgb(11, 26, 26),rgb(11, 85, 39));
+}
+
+.icon{
+  width: 50px;
+  margin-right: 20px;
+
+}
+.navb{
+  background:rgba(3, 27, 18, 0.97);
+
+}
+.bgim{
+  width: 100%;
+  background-size: cover;
+  padding-bottom: 10px;
+  background-position: bottom;
+  background-image: url("https://azinpeyman.com/wp-content/uploads/2021/09/%D8%B1%D9%88%D8%B4-%D9%87%D8%A7%DB%8C-%D8%B1%D9%86%DA%AF-%D8%A2%D9%85%DB%8C%D8%B2%DB%8C-%D8%AF%DB%8C%D9%88%D8%A7%D8%B1-%D9%88-%D8%A7%D8%AA%D8%A7%D9%82.jpg");
+}
+
+@keyframes mtrang {
+
+  10%{text-shadow: red 2px 2px 9px;}
+  20%{text-shadow: rgb(26, 24, 150) 2px 2px 9px;}
+  10%{text-shadow: rgb(17, 6, 6) 2px 2px 9px;}
+  10%{text-shadow: rgb(35, 199, 29) 2px 2px 9px;}
+  
+}
+@keyframes tali {
+  10%{color: burlywood;}
+  20%{color: rgb(74, 208, 248);}
+  30%{color: rgb(148, 135, 222);}
+  40%{color: rgb(197, 135, 222);}
+}
+.tali{
+  color: blueviolet;
+  animation-name: tali;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+}
+#btnnav{
+  background-color: rgb(11, 71, 71);
+}
+#btnnav:hover{
+  background-color: rgb(81, 182, 182);
+
+}
+.tnav{
+  text-align: center;
+  background-color: rgba(40, 107, 65, 0.55);
+  margin-top: 20px;
+  border-radius: 11px;
+  margin-right: 5px;
+  color: aliceblue;
+
+}
+.tnav:hover{
+  background-color: rgba(40, 107, 65, 0.95);
+
+}
+.tnaqash{
+  margin-left: 50px;
+  margin-right: 50px;
+  border-radius: 3px;
+  align-items: center;
+  color: rgb(122, 243, 128);
+}
+.mtrangar{
+  animation-name: mtrang;
+  animation-iteration-count: infinite;
+  animation-duration: 2s;
+  background-color: rgba(24, 22, 19, 0.55);
+  text-align: center;
+  margin-bottom: 10px;
+  padding: 13px;
+  border-radius: 10px;
+  
+}
+
+@keyframes imgrang2 {
+  10%{transform: skewX(1deg);}
+  20%{transform: skewX(5deg);}
+  30%{transform: skewX(9deg);}
+  40%{transform: skewX(12deg);}
+  50%{  background-color: rgba(92, 37, 37, 0.55);
+  }
+}
+
+.imgrang2{
+  animation-name: imgrang2;
+  animation-iteration-count: infinite;
+  animation-duration: 1s;
+  background-color: rgba(37, 48, 153, 0.55);
+  margin-right: 30px;
+  margin-left: 30px;
+  margin-bottom: 10px;
+  margin-top: 10px;
+  text-align: center;
+  transform: skewX(20deg);
+  border-radius: 10px;
+}
+.imgrang{
+  width: 90px;
+  margin: 10px;
+  border-radius: 11px;
+}
+
+.imgrang:hover{
+  box-shadow: black 2px 2px 22px;
+  border-style: dashed;
+  border-color: rgb(38, 56, 37);
+}
+
+.kh{
+  background-color: rgb(38, 105, 64);
+  margin-top: 11px;
+  border-radius: 5px;
+}
+
+.imgrang0{
+  width: 40%;
+  border-radius: 4px;
+}
+.imgrang0:hover{
+  box-shadow: rgb(106, 245, 13) 2px 2px 22px;
+}
+.kha{
+  padding: 34px;
+}
+.imgrang3{
+  background:linear-gradient(to left,rgb(11, 26, 26),rgb(20, 36, 26));
+  border-radius: 10px;
+  width: 200px;
+  padding: 5px;
+  margin: 2px;
+  border-style: groove;
+  text-align: center;
+
+}
+.bnd{
+  background-color: rgba(24, 156, 31, 0.55);
+  padding: 4px;
+  margin: 2px;
+  border-radius: 7px;
+}
+.shomar{
+  background-color: rgba(17, 49, 19, 0.55);
+  padding: 2px;
+  margin: 4px;
+  border-radius: 4px;
+}
+.vid{
+  text-align: center;
+  background:linear-gradient(to left,rgb(65, 143, 143),rgb(20, 36, 26));
+  padding: 10px;
+  margin-bottom: 20px;
+  border-top-left-radius: 11px;
+  border-bottom-right-radius: 22px;
+}
+.tamas{
+  margin-bottom: 15px;
+}
+
+@keyframes sh {
+
+  10%{box-shadow: red 2px 2px 8px;}
+  20%{box-shadow: rgb(51, 29, 29) 2px 2px 8px;}
+  30%{box-shadow: rgb(58, 32, 151) 2px 2px 8px;}
+  40%{box-shadow: rgb(194, 44, 231) 2px 2px 8px;}
+  50%{box-shadow: rgb(193, 228, 39) 2px 2px 8px;}
+  
+}
+.sh{
+  animation-name: sh;
+  animation-duration: 2s;
+  animation-iteration-count: infinite;
+  margin-right: 10px;
+  background:linear-gradient(to left,rgb(26, 92, 92),rgb(20, 36, 26));
+  padding: 2px;
+  border-radius: 6px;
+}
+.call{
+  text-align: center;
+  margin-top: 40px;
+  background:linear-gradient(to left,rgb(27, 80, 51),rgb(20, 36, 26));
+  padding: 10px;
+  
+}
+
+#abdollah{
+  margin-top: 20px;
+  margin-bottom: 10px;
+  color: cadetblue;
+  background-color: rgb(6, 73, 36);
+}
+
+#abd{
+  background:linear-gradient(to left,rgb(8, 31, 18),rgb(20, 36, 26));
+  margin: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#abd:hover{
+  background:linear-gradient(to left,rgb(8, 31, 18),rgb(18, 119, 57));
+
+}
