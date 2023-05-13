@@ -13,13 +13,14 @@ export default function Home() {
   return (
     <>
       <Head>
-        <title>نقاش علی اکبر - بندرعباس</title>
+        <title>نقاش علی اکبر</title>
         <meta name="description" content="نقاشی ساختمان انواع رنگ پلاستیک اکرولیک و روغنی رنگ امیزی کناف، درب و پنجره  ،با بهترین کیفیت در خدمت مشتریهای عزیز" />
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <meta
           name="keywords"
           content="نقاش علی اکبر , نقاش بندرعباس , نقاشی علی اکبر , نقاشی بندرعباس , نقاشی درب بندرعباس , نقاشی دیوار بندرعباس , نقاشی کناف بندرعباس"
         />
+
         <link rel="icon" href="https://parspamchalpaint.com/wp-content/uploads/2018/06/actions-fill-color-icon-1.png" />
       </Head>
       <main className={styles.home} id='home'>
@@ -55,7 +56,7 @@ export default function Home() {
                 نقاشی ساختمان انواع رنگ پلاستیک اکرولیک و روغنی رنگ آمیزی کناف، درب و پنجره  ،با بهترین کیفیت در خدمت مشتریهای عزیز
 
               </p>
-              <div className={styles.bnd}>نقاشی ساختمان سر تا سر بندرعباس پذیرفته میشه <br/>شماره تماس : <b className={styles.shomar}>09337382190</b></div>
+              <div className={styles.bnd}>نقاشی ساختمان سر تا سر بندرعباس پذیرفته میشه <br />شماره تماس : <b className={styles.shomar}>09337382190</b></div>
             </Col>
 
             <Col className={styles.imgrang2}>
@@ -87,14 +88,17 @@ export default function Home() {
         <br />
         <br />
 
-
+    <Container fluid id={styles.khadama}>
+      <Row>
+        <Col sm={12}>
         <Container id='khadamat' fluid className={styles.kha}>
           <Row>
 
+          
 
-            <Col className={styles.imgrang3} sm={4}>
+            <Col className={styles.imgrang3} >
               <Link target='#blank' href={"/a1.jpg"}>
-                <img className={styles.imgrang0} src='/a1.jpg' />
+                <img width={100} height={100} className={styles.imgrang0} src='/a1.jpg' />
 
               </Link>
 
@@ -104,9 +108,9 @@ export default function Home() {
 
             </Col>
 
-            <Col className={styles.imgrang3} sm={4}>
+            <Col className={styles.imgrang3} >
               <Link target='#blank' href={"/a2.jpg"}>
-                <img className={styles.imgrang0} src='/a2.jpg' />
+                <img width={100} height={100} className={styles.imgrang0} src='/a2.jpg' />
 
               </Link>
 
@@ -117,9 +121,9 @@ export default function Home() {
             </Col>
 
 
-            <Col className={styles.imgrang3} sm={3}>
+            <Col className={styles.imgrang3} sm={5}>
               <Link target='#blank' href={"/a3.jpg"}>
-                <img className={styles.imgrang0} src='/a3.jpg' />
+                <img width={100} height={100} className={styles.imgrang0} src='/a3.jpg' />
 
               </Link>
 
@@ -132,7 +136,7 @@ export default function Home() {
 
             <Col className={styles.imgrang3} sm={6}>
               <Link target='#blank' href={"/a4.jpg"}>
-                <img className={styles.imgrang0} src='/a4.jpg' />
+                <img width={100} height={100} className={styles.imgrang0} src='/a4.jpg' />
 
               </Link>
 
@@ -143,9 +147,9 @@ export default function Home() {
             </Col>
 
 
-            <Col className={styles.imgrang3} sm={3}>
+            <Col className={styles.imgrang3} sm={5}>
               <Link target='#blank' href={"/a5.jpg"}>
-                <img className={styles.imgrang0} src='/a5.jpg' />
+                <img width={100} height={100} className={styles.imgrang0} src='/a5.jpg' />
 
               </Link>
 
@@ -158,7 +162,7 @@ export default function Home() {
 
             <Col className={styles.imgrang3} sm={3}>
               <Link target='#blank' href={"/a6.jpg"}>
-                <img className={styles.imgrang0} src='/a6.jpg' />
+                <img width={100} height={100} className={styles.imgrang0} src='/a6.jpg' />
 
               </Link>
 
@@ -169,9 +173,9 @@ export default function Home() {
             </Col>
 
 
-            <Col className={styles.imgrang3} sm={3}>
+            <Col className={styles.imgrang3} sm={8}>
               <Link target='#blank' href={"/a7.jpg"}>
-                <img className={styles.imgrang0} src='/a7.jpg' />
+                <img width={100} height={100} className={styles.imgrang0} src='/a7.jpg' />
 
               </Link>
 
@@ -181,9 +185,9 @@ export default function Home() {
 
             </Col>
 
-            <Col className={styles.imgrang3} sm={3}>
+            <Col className={styles.imgrang3} sm={11}>
               <Link target='#blank' href={"/a8.jpg"}>
-                <img className={styles.imgrang0} src='/a8.jpg' />
+                <img width={100} height={100} className={styles.imgrang0} src='/a8.jpg' />
 
               </Link>
 
@@ -194,9 +198,9 @@ export default function Home() {
             </Col>
 
 
-            <Col className={styles.imgrang3} sm={3}>
+            <Col className={styles.imgrang3} sm={5}>
               <Link target='#blank' href={"/a9.jpg"}>
-                <img className={styles.imgrang0} src='/a9.jpg' />
+                <img width={100} height={100} className={styles.imgrang0} src='/a9.jpg' />
 
               </Link>
 
@@ -208,7 +212,7 @@ export default function Home() {
 
             <Col className={styles.imgrang3} sm={3}>
               <Link target='#blank' href={"/a10.jpg"}>
-                <img className={styles.imgrang0} src='/a10.jpg' />
+                <img width={100} height={100} className={styles.imgrang0} src='/a10.jpg' />
 
               </Link>
 
@@ -220,7 +224,7 @@ export default function Home() {
 
             <Col className={styles.imgrang3} sm={3}>
               <Link target='#blank' href={"/a11.jpg"}>
-                <img className={styles.imgrang0} src='/a11.jpg' />
+                <img width={100} height={100} className={styles.imgrang0} src='/a11.jpg' />
 
               </Link>
 
@@ -234,11 +238,18 @@ export default function Home() {
 
           </Row>
         </Container>
+        </Col>
+      </Row>
+    </Container>
+        
 
 
 
         <Container fluid className={styles.call} id='call'>
           <Row>
+        
+
+
             <Col className={styles.tamas}> تماس با من</Col>
 
             <hr />
